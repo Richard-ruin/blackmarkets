@@ -1,0 +1,44 @@
+name: blackmarket
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Dependencies for Hive database
+  hive: ^2.0.0
+  hive_flutter: ^1.1.0
+
+  # Dependency for path provider (used for Hive database initialization)
+  path_provider: ^2.0.2
+
+  # Additional dependencies
+  provider: ^5.0.0
+  http: ^0.13.3
+
+  # Dependencies for state management and other utilities
+  flutter_riverpod: ^1.0.3
+  shared_preferences: ^2.0.6
+
+  uuid: ^4.4.0
+  pdf: ^3.6.0
+  printing: ^5.9.0
+
+  intl: any
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Dev dependencies for code generation
+  build_runner: ^2.0.0
+  hive_generator: ^1.0.0
+  printing: ^5.5.0
+  flutter_share: ^2.0.0
+
+flutter:
+  uses-material-design: true
